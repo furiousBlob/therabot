@@ -1,0 +1,24 @@
+streamlit==1.27.2 # For UI and deployment
+openai==1.58.1     # For GPT-based conversational capabilities
+langchain==0.0.304
+langchain-community # Framework for chaining LLMs and workflows
+pinecone-client==2.2.2  # For vector-based memory and storage (if using Pinecone)
+sentence-transformers==2.2.2  # For embedding generation
+faiss-cpu==1.7.4  # For local vector database
+flask==2.2.5  # If using Flask for backend
+fastapi==0.100.0  # Alternative to Flask, if you want a modern API framework
+uvicorn==0.23.1  # For FastAPI server
+scikit-learn==1.3.1  # For basic machine learning tasks
+nltk==3.8.1  # For text preprocessing
+spacy==3.7.3  # For advanced NLP
+python-dotenv==1.0.0  # To manage environment variables
+pandas==2.1.1  # For data manipulation
+numpy==1.26.0  # For numerical computations
+matplotlib==3.8.0  # For visualizing data insights
+tensorflow==2.14.0  # For training models, if needed
+torch==2.0.1  # PyTorch, another option for model development
+transformers==4.34.0  # Hugging Face for pre-trained LLMs
+ollama
+gTTs==2.5.4
+twilio
+chromadb

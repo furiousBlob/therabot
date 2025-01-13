@@ -1,0 +1,6 @@
+__pycache__
+chromadb/
+confidential/
+*.mp3
+Data-PreProcessing/
+Pipeline/onboarding-details
