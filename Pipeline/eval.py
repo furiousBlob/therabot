@@ -122,9 +122,9 @@ def send_email_internal(to_addr: str, subject: str, body: str) -> str:
     # SMTP server configuration
     smtp_server = "smtp.gmail.com"  # This might need to be updated
     smtp_port = 587  # or 465 for SSL or 587
-    username = "testtestertamu@gmail.com"
+    username = "test@gmail.com"
     password = f"{passkey}"
-    from_addr = "testtestertamu@gmail.com"
+    from_addr = "test@gmail.com"
 
     cc_addr = "xxx"
 
